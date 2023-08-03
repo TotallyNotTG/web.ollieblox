@@ -1,35 +1,50 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head><script src="somename.js"></script>
-    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script src="Content/OtherJS/Other.js"></script>
+<script src="Content/OtherJS/friends.js"></script>
 
-    <title>Welcome to OLLIEBLOX!</title>
-    <link rel="stylesheet" href="web.ollieblox.com/Ollieblox.css">
+    <title>Home - OLLIEBLOX</title>
+    <!--<link rel="stylesheet" href="web.ollieblox.com/Ollieblox.css">-->
+    <link rel="stylesheet" href="/web.ollieblox.com/static.obxcdn.com/nav/fetch.css">
+    <link rel="stylesheet" href="/web.ollieblox.com/static.obxcdn.com/main/fetch.css">
+    <!--Main Site - Stuff Above is the Main Stuff that is always there.-->
+    <link rel="icon" type="x-icon" href="/web.ollieblox.com/Content/Thumbs/OlliebloxExtension.png">
 </head>
 <body>
-    <div class="ollie-body">
+
+    <script src="/web.ollieblox.com/Content/OtherJS/error.js"></script>
+
+    <div class="ollie-body olliebloxhtml">
         <main class="MainContent">
-            <div class="OLLIE900X900">
-                <nav class="top-nav"><h1>The Ollieblox Toy!</h1></nav>
-                <nav class="side-nav">
-                    <a href="home.html" class="pages">Home</a>
-                    <a href="build.html" class="pages">BUILD!</a>
-                    <a href="games.html" class="pages">Games</a>
-                    <a href="forum.html" class="pages">DevForums</a>
-                    <a href="currency.html" class="pages">Olliebux</a>
-                </nav>
-                <main class="contentnotnav">
-                    <img src="Content/Thumbs/ollieblox2004.png" class="logo" title="OLLIEBLOX BETA">
-                    <div>
-                        <h1>What is OLLIEBLOX?™</h1>
-                        <p style="width: 300px;">OLLIEBLOX™ is a kids game mostly ranging from 6 to 13 y/o. Possiblities are endless when it comes to OLLIEBLOX. From building anything u can imagine! <br>this version of OLLIEBLOX website is in beta but it will fully release in a few days.</p>
+            <script src="/web.ollieblox.com/Content/OtherJS/Nav.js"></script>
+            <div class="main-content">
+                <div class="top-pfp-section">
+                    <div class="pfp-area" >
+                        <img class="pfpfh box-hover" src="Content/Thumbs/user-profile.png">
+                        <h1 class="pfp-name thin">NotTG</h1>
                     </div>
-                    <div class="footer">
-                        <p>© OLLIEBLOX 4/26/23. ALL RIGHTS RESERVED!</p>
+                </div>
+                <div class="friends-list">
+                    <h2 class="thin">Friends</h2>
+                    <div class="inner-friends-list box-shadow"><div class="spinner"></div></div>
+                </div>
+                <div class="games-section">
+                    <div class="games-load-error">
+                        <h2 class="thin">Games</h2>
+                        <div class="games-error">
+                            <div class="games-error-img"></div>
+                            <p class="games-error-text">Games failed to load</p>
+                            <button class="games-error-refresh"><span class="refresh-btn">🔃</span></button>
+                        </div>
                     </div>
-                </main>
+                    <script src="Content/OtherJS/games.js"></script>
+                </div>
             </div>
         </main>
     </div>
