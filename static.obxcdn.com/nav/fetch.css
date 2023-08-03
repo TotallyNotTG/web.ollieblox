@@ -1,0 +1,47 @@
+.nav-container-fixed {
+    width: 100%;
+    height: 40px;
+    background-color: #0074BD;
+    position: fixed;
+    margin-left: -8px;
+    margin-top: -40px;
+}
+.nav-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.logo-and-nav {
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    margin-left: 20px;
+}
+.logo {
+    height: 100%;
+    width: 160px;
+    background: url(/web.ollieblox.com/Content/Thumbs/Ollieblox2010.png) no-repeat center;
+    background-size: 100%;
+}
+.page-selections {
+    width: fit-content;
+    height: 100%;
+    margin-left: 20px;
+}
+.page-a {
+    width: 100px;
+    height: fit-content;
+}
+.pages {
+    width: fit-content;
+    height: 30px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+.pages:hover {
+    background-color: #255eae;
+}
