@@ -1,7 +1,7 @@
 document.write('<div class="nav-container-fixed">');
 document.write('                <div class="nav-inner">');
 document.write('                    <div class="logo-and-nav">');
-document.write('                        <a href="/web.ollieblox.com/home.html"><div class="logo"></div></a>');
+document.write('                        <a href="/home"><div class="logo"></div></a>');
 document.write('                    </div>');
 document.write('                    <div class="page-selections">');
 document.write('                        <a href="games" class="page-a"><button class="pages white">Games</button></a>');
